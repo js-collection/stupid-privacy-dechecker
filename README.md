@@ -18,6 +18,8 @@ It's a stupid script to copy and past in console to uncheck in one shot all priv
 On the site, open console use the Chrome shortcut by pressing your keyboard's Cmd+Option+J (for Mac) or Ctrl+Shift+J (Windows, Linux, Chrome OS)
 
 Copy and past this in console:
-```js (()=>{let checks = document.querySelectorAll("input[type=checkbox]");for (let input of checks) {input.checked=false;input.removeAttribute('checked')}})()```
+```js
+(()=>{let checks = document.querySelectorAll("input[type=checkbox]");for (let input of checks) {input.checked=false;input.removeAttribute('checked')}})()
+```
 
 Press enter end et voilà! All checked is unchecked 👻 
